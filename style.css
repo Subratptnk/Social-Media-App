@@ -1,0 +1,31 @@
+h3 {
+    color:darkred;
+    background-color: yellow;
+}
+
+.special {
+          color: green;               
+}
+
+/*
+if you selecting by id then use # before the id name
+*/
+#side-profile 
+{
+    background-color: lightgreen;
+}
+
+#side-all 
+{
+    background-color: springgreen;
+}
+
+#side-youlike 
+{
+    background-color: palevioletred;
+}
+
+#side-likeyou 
+{
+    background-color: lightskyblue;
+}

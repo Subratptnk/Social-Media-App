@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Social App</title>
+    <!--Here if are doing the css stuffs in our html
+    plus we are finding new ways how to do css
+    we name a class special and we are manipulating this by using .before its class name as .special -->
+    
+    <!--Link tag is used to add the external css file into the present html-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="profile-area">
+            <div id="side-profile"><a>Username</a></div>
+            <div id="side-all"><a>Community</a></div>
+            <div id="side-youlike">
+                <h3>Following</h3>
+                <div>
+                    <div>Subrat</div>       <!--This is all usernames that follows you-->
+                    <div>bhalu</div>        
+                </div>
+            </div>
+            <div id="side-likeyou">
+                    <h3>Follower</h3>
+                    <div>
+                        <div>Subrat</div>       <!--This is all usernames that follows you-->
+                        <div>bhalu</div>        
+                    </div>
+            </div>
+        </div>  
+    </div>
+    <div id="feed-area"> 
+        <form id="post-form">
+            <textarea id="content"></textarea>
+            <button type="submit">Say</button>
+        </form>
+        <ul>
+            <li class="special">
+                <div>This is the content of social network post by some person</div>
+                <div>Author <a>Follow</a></div>
+            </li>
+            <li>
+                    <div>This is the content of social network post by some person</div>
+                    <div>Author <a>Follow</a></div>
+            </li>
+            <li class="special">
+                    <div>This is the content of social network post by some person</div>
+                    <div>Author <a>Follow</a></div>
+            </li>  
+            <li>
+                        <div>This is the content of social network post by some person</div>
+                        <div>Author <a>Follow</a></div>
+            </li>
+            <li>
+                            <div>This is the content of social network post by some person</div>
+                            <div>Author <a>Follow</a></div>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>

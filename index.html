@@ -1,68 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Social App</title>
-    <!--Here if are doing the css stuffs in our html
-    plus we are finding new ways how to do css
-    we name a class special and we are manipulating this by using .before its class name as .special -->
-    
-    <!--Link tag is used to add the external css file into the present html-->
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Social WebApp</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
     <div id="wrapper">
         <div id="profile-area">
-            <div id="side-profile" class="side-box "><a>Username</a></div>
-            <div id="side-all" class="side-box"><a>Community</a></div>
-            <div id="side-youlike" class="side-box">
-                <h3>Following</h3>
-                <div>
-                    <div> <a class="filter-user">Subrat </a></div>       <!--This is all usernames that follows you-->
-                    <div> <a class="filter-user">bhalu </a></div>
-                    <div> <a class="filter-user">Example </a></div>        
-                </div>
+          <div id="side-profile" class="side-box"><a>Username</a></div>
+          <div id="side-all" class="side-box"><a>Community</a></div>
+          <div id="side-youlike" class="side-box">
+            <h3>Following</h3>
+            <div class="boxcontent">        <!--This is for scrolling up and down if list contain something bigger-->
+              <div><a class="filter-user">Subrat</a></div>
+              <div><a class="filter-user">Manju</a></div>
+              <div><a class="filter-user">Sweta</a></div>
             </div>
-            <div id="side-likeyou">
-                    <h3>Follower</h3>
-                    <div>
-                            <div> <a class="filter-user">Subrat </a></div>       <!--This is all usernames that follows you-->
-                            <div> <a class="filter-user">bhalu </a></div>
-                            <div> <a class="filter-user">Example </a></div>            
-                    </div>
+          </div>
+          <div id="side-likeyou" class="side-box">
+            <h3>Follows You</h3>
+            <div class="boxcontent">
+              <div><a class="filter-user">Manju</a></div>
+              <div><a class="filter-user">Sweta</a></div>
+              <div><a class="filter-user">Subrat</a></div>
+              <div><a class="filter-user">Heena</a></div>
             </div>
-        </div>  
-    </div>
-    <div id="feed-area"> 
-        <form id="post-form">
+          </div>
+        </div>
+        <div id="feed-area">
+          <form id="post-form">
             <textarea id="content"></textarea>
             <button type="submit">Say</button>
-        </form>
-        <ul class="post-list">
+          </form>
+          <ul class="post-list">
             <li class="post">
-                <div>This is the content of social network post by some person</div>
-                <div>Author <a class="filter-user">Follow</a></div>
+              <div>This is the content of a social network post by some person</div>
+              <div>Author <a>Follow</a></div>
             </li>
             <li class="post">
-                    <div>This is the content of social network post by some person</div>
-                    <div>Author <a class="filter-user">Follow</a></div>
+              <div>This is the content of a social network post by some person</div>
+              <div>Author <a>Follow</a></div>
             </li>
             <li class="post">
-                    <div>This is the content of social network post by some person</div>
-                    <div>Author <a class="filter-user">Follow</a></div>
-            </li>  
-            <li class="post">
-                        <div>This is the content of social network post by some person</div>
-                        <div>Author <a class="filter-user">Follow</a></div>
+              <div>This is the content of a social network post by some person</div>
+              <div>Author <a>Follow</a></div>
             </li>
             <li class="post">
-                            <div>This is the content of social network post by some person</div>
-                            <div>Author <a class="filter-user">Follow</a></div>
+              <div>This is the content of a social network post by some person</div>
+              <div>Author <a>Follow</a></div>
             </li>
-
-        </ul>
+            <li class="post">
+              <div>This is the content of a social network post by some person</div>
+              <div>Author <a>Follow</a></div>
+            </li>
+          </ul>
+        </div>
     </div>
-</body>
+  </body>
 </html>
